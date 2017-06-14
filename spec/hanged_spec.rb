@@ -31,7 +31,8 @@ describe "Hanged" do
         resultado = ahorcado.comparar
         expect(resultado).to eq "S"
     end
-
+  
+  
 	it "selecciona letra A" do
         ahorcado = Hanged.new
         resultado = ahorcado.comparar
