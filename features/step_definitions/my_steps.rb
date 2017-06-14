@@ -3,7 +3,7 @@ Given(/^Nevego en la pagina$/) do
 end
 
 Then(/^Debo leer "([^"]*)"$/) do |valor|
-  expect(page.body).to match /#{text}/m
+  expect(page.body).to match /#{valor}/m
 end
 
 When(/^El usuario da clic en "([^"]*)"$/) do |arg1|
